@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="flex justify-center items-center space-between gap-44 bg-[#f1edf8] h-screen">
+    <div className="flex justify-center items-center space-between gap-44 bg-background h-screen text-textcolour">
       <div>
         <p className="text-7xl py-4"> Hi, I&#39;m Donald </p>
         <p className="text-3xl"> Junior Software Developer </p>
