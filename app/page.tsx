@@ -1,6 +1,11 @@
-import Image from 'next/image'
 import Theme from "./component/theme";
 import Contact from './component/contact';
+import Introduction from "./component/introduction";
+import Projects from "./component/projects";
+import Experience from "./component/experience";
+import Skills from "./component/skills";
+import More from "./component/more";
+import About from "./component/about";
 
 export default function Home() {
   
@@ -9,31 +14,12 @@ export default function Home() {
     <div className='snap-mandatory snap-y h-screen overflow-y-scroll'>
       <Theme/>
       <Contact/>
-      <div id="introduction" className="snap-center flex justify-center items-center space-between gap-44 bg-background h-screen text-textcolour">
-        <div>
-          <p className="text-7xl py-4"> Hi, I&#39;m Donald </p>
-          <p className="text-3xl"> Junior Software Developer </p>
-        </div>
-        <Image 
-          src="/cat.png"
-          width={390}
-          height={390}
-          alt='picture of cat :3'
-          >
-        </Image>
-      </div>
-      <div id="projects" className="snap-center flex justify-center items-center space-between gap-44 bg-secondary h-screen text-textcolour">
-        <p> Test this is projects</p>        
-      </div>
-      <div id="skills" className="snap-center flex justify-center items-center space-between gap-44 bg-background h-screen text-textcolour">
-      <p> Test this is skills</p>        
-      </div>
-      <div id="experience" className="snap-center flex justify-center items-center space-between gap-44 bg-secondary h-screen text-textcolour">
-      <p> Test this is experience</p>        
-      </div>
-      <div id="more" className="snap-center flex justify-center items-center space-between gap-44 bg-background h-screen text-textcolour">
-      <p> Test this is more</p>        
-      </div>
+      <Introduction/>
+      <About/>
+      <Projects/>
+      <Experience/>
+      <Skills/>
+      <More/>
     </div>
   );
 }
