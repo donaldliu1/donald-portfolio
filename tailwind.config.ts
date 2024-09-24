@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       colors: {
         background: "rgba(var(--background))",
+        secondary: "rgba(var(--secondary))",
         textcolour: "rgba(var(--textcolour))",
         light: "rgba(var(--light))",
         dark: "rgba(var(--dark))",
