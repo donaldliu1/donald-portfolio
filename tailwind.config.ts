@@ -11,6 +11,10 @@ const config: Config = {
       colors: {
         background: "rgba(var(--background))",
         textcolour: "rgba(var(--textcolour))",
+        light: "rgba(var(--light))",
+        dark: "rgba(var(--dark))",
+        royal: "rgba(var(--royal))",
+        runescape: "rgba(var(--runescape))",
       },
     },
   },
