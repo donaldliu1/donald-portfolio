@@ -1,13 +1,14 @@
 import Image from 'next/image'
 import Theme from "./component/theme";
+import Contact from './component/contact';
 
 export default function Home() {
+  
+
   return (
     <div className='snap-mandatory snap-y h-screen overflow-y-scroll'>
       <Theme/>
-      <div id="contact">
-
-      </div>
+      <Contact/>
       <div id="introduction" className="snap-center flex justify-center items-center space-between gap-44 bg-background h-screen text-textcolour">
         <div>
           <p className="text-7xl py-4"> Hi, I&#39;m Donald </p>
