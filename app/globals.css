@@ -4,6 +4,7 @@
 
 body * {
     @apply transition-colors duration-200;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
