@@ -7,7 +7,7 @@ export default function About() {
             <div className="flex flex-col h-full text-2xl place-content-between mx-48">
                 <div className='flex py-8 items-center'>
                     <Image 
-                    src="/cat.png"
+                    src="/about1.webp"
                     width={200}
                     height={200}
                     alt='picture of cat :3'
@@ -17,7 +17,7 @@ export default function About() {
                 <div className='flex py-8 items-center'>
                     <p> Feeling unfulfilled in my role and eager to learn something new and exciting, I looked for more meaningful direction. That&#39;s when I came across the School of Code bootcamp - a 16-week intensive programme that not only focused on teaching coding but also getting us used to real-world environments. We practiced pair programming, adopted agile methodologies, and engaged in daily standups, hackathons, and creating and sticking to MVPs. I thrived in this fast-paced environment, and for my final project, I worked with a real stakeholder to revamp an e-commerce website, which is set to go live soon.</p>
                     <Image 
-                    src="/cat.png"
+                    src="/about2.webp"
                     width={200}
                     height={200}
                     alt='picture of cat :3'
@@ -25,7 +25,7 @@ export default function About() {
                 </div>
                 <div className='flex py-8 items-center'>
                 <Image 
-                    src="/cat.png"
+                    src="/about3.webp"
                     width={200}
                     height={200}
                     alt='picture of cat :3'
