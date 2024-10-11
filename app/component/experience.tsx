@@ -14,7 +14,7 @@ export default function Experience() {
                     />
                     <div className="px-6">
                     <p className="text-center py-4"> School of Code </p>
-                    <p> Intense 16 week coding bootcamp with real world experience, learning at an incredibly fast pace and creative problem solving. Each was a "intern week" where we would mimic a certain role within the tech industry such as fronend engineer, backend engineer, QA engineer etc. We would have the start of the week learning the core concept and making mini projects, towards the end of the week we would do our weekly hackathon, creating MVPs, using pair programming and agile methodology to create a project and present it to others. </p>
+                    <p> Intense 16 week coding bootcamp with real world experience, learning at an incredibly fast pace and creative problem solving. Each was an &#35;intern week&#35; where we would mimic a certain role within the tech industry such as fronend engineer, backend engineer, QA engineer etc. We would have the start of the week learning the core concept and making mini projects, towards the end of the week we would do our weekly hackathon, creating MVPs, using pair programming and agile methodology to create a project and present it to others. </p>
                     </div>
                 </div>
                 <div className='flex py-8 items-center'>
