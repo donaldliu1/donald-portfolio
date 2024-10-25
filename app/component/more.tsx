@@ -14,7 +14,7 @@ export default function More() {
                 alt=''
                 />
                 <div>
-                    <p>Outside of my career I love anime, gaming and gym, currently playing Old School Runescape, Genshin Impact and League of Legends. I&#39;ve been watching anime since the days of multi-part episodes on Youtube with my favourite being Code Geass, Vinland Saga and Attack on Titan. I enjoy working out and pushing myself. Combining the three I&#39;ve started a passion project where I reward my gym sessions with simulated Pokémon card gacha pulls. Away from the computer screen I love rock climbing, currently only indoor!</p> 
+                    <p className="px-10">Outside of my career I love anime, gaming and gym, currently playing Old School Runescape, Genshin Impact and League of Legends. I&#39;ve been watching anime since the days of multi-part episodes on Youtube with my favourite being Code Geass, Vinland Saga and Attack on Titan. I enjoy working out and pushing myself. Combining the three I&#39;ve started a passion project where I reward my gym sessions with simulated Pokémon card gacha pulls. Away from the computer screen I love rock climbing, currently only indoor!</p> 
                 </div>
             </div>
         </div>
