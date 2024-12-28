@@ -17,8 +17,8 @@ export default function Introduction() {
             alt='picture of cat :3'
           />
         </div>
+        <Down/>
       </div>
-      <Down/>
     </div>
   )
 }

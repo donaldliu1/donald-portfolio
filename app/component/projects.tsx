@@ -2,6 +2,7 @@
 import { useState, useEffect, useRef } from "react";
 import Project_temp from "./project_temp";
 import Modal from "./modal";
+import Skills from "./skills";
 
 interface Project {
     name: string;
@@ -86,6 +87,7 @@ export default function Projects() {
                 </div>
             </Modal>
             )}
+            <Skills/>
             </div>
     );
 }
