@@ -3,8 +3,6 @@ import Contact from './component/contact';
 import Introduction from "./component/introduction";
 import Projects from "./component/projects";
 import Experience from "./component/experience";
-import Skills from "./component/skills";
-import More from "./component/more";
 import About from "./component/about";
 
 export default function Home() {
@@ -18,8 +16,6 @@ export default function Home() {
       <About/>
       <Projects/>
       <Experience/>
-      <Skills/>
-      <More/>
     </div>
   );
 }
