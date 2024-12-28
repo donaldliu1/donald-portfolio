@@ -66,7 +66,7 @@ export default function Projects() {
                         img="fgl.png" 
                         focus="Shopify, CI/CD, TypeScript" 
                         isSpanVisible={spanVisibility["Fauna Green Living"]}
-                        onClick={() => handleButtonClick("Fauna Green Living", "fgl.png", "For my final project for School of Code we was given a real stakeholder who wanted their e-commerce website to be completely revamped as it was not fit for purpose and had poor UI/UX. The time frame was 4 weeks and within that time we was able to make a custom front-end, greater SEO and a shopify backend for product management.", "https://www.faunagreenliving.com/")}
+                        onClick={() => handleButtonClick("Fauna Green Living", "fgl.png", "For my final project for School of Code we was given a real stakeholder who wanted their e-commerce website to be completely revamped as it was not fit for purpose and had poor UI/UX. The time frame was 4 weeks and within that time we was able to make a custom front-end, greater SEO and a shopify backend for product management.", "https://github.com/oscaroneim/fauna-green-living")}
                     />
                     <Project_temp 
                         name="PokePull" 
