@@ -19,8 +19,8 @@ const Project_temp: React.FC<ProjectProps> = ({ name, img, focus, onClick, isSpa
                         <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
                     </span>
                 )}
-                <p className="text-2xl">{name}</p>
-                <p className="font-extralight text-sm">{focus}</p>
+                <p className="text-2xl text-textcolour ">{name}</p>
+                <p className="font-extralight text-sm text-textcolour">{focus}</p>
             </div>
             <div>
                 <img src={img} alt={name}/>

@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Skills() {
     return (
-        <div className='flex justify-start w-1/2 top-full my-10 bg-textcolour rounded opacity-50 gap-20 overflow-x-clip'>
+        <div className='flex justify-start w-1/2 my-10 bg-textcolour rounded opacity-50 gap-20 overflow-x-clip'>
             <img src="javascript.svg" alt="GitHub" className="w-14 h-14" />
             <img src="typescript.svg" alt="GitHub" className="w-14 h-14" />
             <img src="python.svg" alt="GitHub" className="w-14 h-14" />

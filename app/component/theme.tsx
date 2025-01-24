@@ -30,7 +30,7 @@ export default function Theme() {
     };
 
     return (
-        <div className="border-4 border-textcolour rounded-lg text-textcolour grid grid-cols-2 grid-rows-2 w-[5%] aspect-square absolute end-[1%] top-[2%] opacity-15 hover:opacity-100">
+        <div className="z-50 border-4 border-textcolour rounded-lg text-textcolour grid grid-cols-2 grid-rows-2 w-[5%] aspect-square absolute end-[1%] top-[2%] opacity-15 hover:opacity-100">
             <button className="bg-light" onClick={() => changeTheme("light")}></button>
             <button className="bg-dark" onClick={() => changeTheme("dark")}></button>
             <button className="bg-royal" onClick={() => changeTheme("royal")}></button>
