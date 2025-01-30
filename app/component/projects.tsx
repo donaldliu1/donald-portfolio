@@ -2,7 +2,6 @@
 import { useState, useEffect, useRef } from "react";
 import Project_temp from "./project_temp";
 import Modal from "./modal";
-import Skills from "./skills";
 
 interface Project {
     name: string;
@@ -53,7 +52,7 @@ export default function Projects() {
             >
                 Projects
             </p>
-            <div className=" flex justify-evenly items-center h-full w-full">
+            <div className=" flex justify-evenly my-16 h-full w-full">
                     <Project_temp 
                         name="Portfolio" 
                         img="cat.png" 
@@ -87,7 +86,6 @@ export default function Projects() {
                 </div>
             </Modal>
             )}
-            <Skills/>
             </div>
     );
 }

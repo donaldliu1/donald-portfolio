@@ -8,7 +8,7 @@ export default function Introduction() {
         <div className="flex justify-between items-center gap-44">
           <div>
             <p className="text-7xl py-4"> Hi, I&#39;m Donald </p>
-            <p className="text-3xl"> Junior Software Developer </p>
+            <p className="text-3xl"> Junior Software Engineer </p>
           </div>
           <Image 
             src="/cat.png"

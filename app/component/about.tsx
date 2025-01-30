@@ -1,5 +1,6 @@
 'use client'
 import { useState, useEffect, useRef } from "react";
+import Timeline from "./timeline";
 
 export default function About() {
     const [isVisible, setIsVisible] = useState(false);
@@ -20,6 +21,7 @@ export default function About() {
             <p className={`flex justify-center text-7xl my-6 transition-all duration-700 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"}`}>
                 My Story
             </p>
+            <Timeline/>
         </div>
     );
 }
