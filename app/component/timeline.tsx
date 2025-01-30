@@ -30,7 +30,6 @@ export default function Timeline() {
             {/* Label & Description */}
             <div className="absolute top-12 text-center">
               <p className="text-sm font-semibold text-white">{milestone.label}</p>
-              <p className="text-xs text-gray-300">{milestone.description}</p>
             </div>
           </motion.div>
         ))}

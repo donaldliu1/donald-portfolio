@@ -2,7 +2,6 @@ import Theme from "./component/theme";
 import Contact from './component/contact';
 import Introduction from "./component/introduction";
 import Projects from "./component/projects";
-import Experience from "./component/experience";
 import About from "./component/about";
 
 export default function Home() {
@@ -15,7 +14,6 @@ export default function Home() {
       <Introduction/>
       <About/>
       <Projects/>
-      <Experience/>
     </div>
   );
 }
