@@ -1,5 +1,6 @@
 "use client"
 import React from 'react';
+import Image from 'next/image'
 
 interface ProjectProps {
     name: string;
@@ -15,12 +16,10 @@ const Project_temp: React.FC<ProjectProps> = ({ name, img, focus, onClick, isSpa
             className="relative flex flex-col sm:flex-row w-full max-w-6xl bg-gray-800 rounded-lg overflow-hidden border-2 border-gray-700 hover:border-white transition duration-300"
             onClick={onClick}
         >
-            {/* Left - Project Image */}
             <div className="w-full sm:w-1/2 h-56 sm:h-64">
-                <img src={img} alt={name} className="w-full h-full object-cover" />
+                <Image src={img} alt={name} className="w-full h-full object-cover" />
             </div>
-
-            {/* Right - Project Details */}
+            
             <div className="w-full sm:w-1/2 flex flex-col justify-center items-start p-6 text-white">
                 {isSpanVisible && (
                     <span className="absolute top-4 right-4 h-3 w-3">

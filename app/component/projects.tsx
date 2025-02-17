@@ -2,6 +2,7 @@
 import { useState, useEffect, useRef } from "react";
 import Project_temp from "./project_temp";
 import Modal from "./modal";
+import Image from "next/image";
 
 interface Project {
     name: string;
@@ -11,7 +12,6 @@ interface Project {
 }
 
 export default function Projects() {
-    const [isVisible, setIsVisible] = useState(false);
     const ref = useRef(null);
     const [isModalVisible, setIsModalVisible] = useState<boolean>(false);
     const [selectedProject, setSelectedProject] = useState<Project>({ name: '', img: '', focus: '', url: '' }); 
@@ -43,10 +43,8 @@ export default function Projects() {
 
     return (
         <div id="projects" ref={ref} className="snap-center flex flex-col items-center bg-background min-h-screen text-textcolour">
-            {/* Title Positioned at the Top */}
             <p className="text-7xl mt-10 mb-6">Projects</p>
 
-            {/* Project Cards */}
             <div className="w-full flex flex-col items-center gap-8 max-w-6xl px-4">
                 <Project_temp 
                     name="Portfolio" 
@@ -70,7 +68,7 @@ export default function Projects() {
                         <a href={selectedProject.url} target="_blank" rel="noopener noreferrer" className="text-blue-500 underline hover:text-blue-700"> 
                             <h1 className="text-3xl mb-4 text-center cursor-pointer">{selectedProject.name}</h1>
                         </a>
-                        <img src={selectedProject.img} alt={selectedProject.name} className="mb-4 h-[50%] w-[50%]" />
+                        <Image src={selectedProject.img} alt={selectedProject.name} className="mb-4 h-[50%] w-[50%]" />
                         <p className="text-lg text-center text-black">{selectedProject.focus}</p>
                     </div>
                 </Modal>
