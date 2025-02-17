@@ -5,7 +5,6 @@ import Projects from "./component/projects";
 import About from "./component/about";
 
 export default function Home() {
-  
 
   return (
     <div className='snap-mandatory snap-y h-screen overflow-y-scroll'>
